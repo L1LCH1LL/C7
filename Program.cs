@@ -20,9 +20,9 @@ for (int i = 0; i < arr.GetLength(0); i++)
     int m1 = Convert.ToInt32(Console.ReadLine());
     Console.Write("Введите размер n1:  ");
     int n1 = Convert.ToInt32(Console.ReadLine());
-    for (int i = 1; i < arr.GetLength(0); i++)
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
-        for (int j = 1; j < arr.GetLength(1); j++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
             Console.Write($"{arr[i, j], 10}");
         }
